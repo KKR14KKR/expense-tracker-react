@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.App {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.app-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.summary {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.summary p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.summary h2 {
+  margin: 8px 0 0;
+  font-size: 32px;
+}
+.expense-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.expense-form h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.expense-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.expense-form input,
+.expense-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.expense-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-message {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.expense-list {
+  margin-bottom: 30px;
+}
+
+.expense-list h2 {
+  margin-bottom: 15px;
+}
+
+.expense-item {
+  background: white;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.expense-details h3 {
+  margin: 0 0 5px;
+}
+
+.expense-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.expense-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.expense-right strong {
+  font-size: 18px;
+}
+
+.expense-right button {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
