@@ -1,6 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
+  "homepage": "https://kkr14kkr.github.io/expense-tracker-react/",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
